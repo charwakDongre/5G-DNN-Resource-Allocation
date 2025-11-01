@@ -1,4 +1,4 @@
-# 5G RESOURCE ALLOCATION USING DEEP NEURAL NETWORKS
+# 🤖 AI-DRIVEN 5G RESOURCE ALLOCATION USING DEEP NEURAL NETWORKS
 
 ## 🌟 Project Overview
 
@@ -8,7 +8,7 @@ The solution moves beyond static allocation by integrating the DNN agent into a 
 
 ## 🎯 Key Objectives
 
-1.  **High-Accuracy Classification:** Train a DNN to classify network QoS metrics into 9 application types with high accuracy ($\mathbf{> 95\%}$).
+1.  **High-Accuracy Classification:** Train a DNN to classify network QoS metrics into 9 application types with a high accuracy ($\mathbf{> 95\%}$).
 2.  **Service Differentiation:** Successfully enforce the conflicting QoS requirements of $\text{eMBB}$ (high throughput), $\text{URLLC}$ (extreme reliability), and $\text{mMTC}$ (massive connectivity).
 3.  **Address Starvation:** Implement a **Cost-Sensitive Loss function** to ensure critical, low-frequency $\text{URLLC}$ traffic is prioritized and not starved of resources.
 
@@ -29,7 +29,7 @@ The simulation successfully validates the framework's ability to enforce strict 
 | :--- | :--- | :--- | :--- |
 | **Average GBR** | $\mathbf{40.00 \text{ Mbps}}$ (Highest) | $2.00 \text{ Mbps}$ (Lowest) | $1.00 \text{ Mbps}$ |
 | **Average PLR** | $\mathbf{0.00\%}$ | $\mathbf{0.00\%}$ (Meets $99.999\%$ Target) | $4.16\%$ (Highest Loss Tolerance) |
-| **Classification Acc.** | \multicolumn{3}{|c|}{$\mathbf{95.00\%}$} |
+| **Test Accuracy** | $\mathbf{95.00\%}$ | | |
 | **Core Finding** | Achieves max throughput under best-effort latency. | Demonstrates successful enforcement of the **Latency Bound**. | Conserves resources with acceptable loss tolerance. |
 
 ## 🛠️ Technologies Used
